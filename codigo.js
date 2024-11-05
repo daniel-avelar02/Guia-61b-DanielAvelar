@@ -32,9 +32,9 @@ function listarProductos(productos) {
 	prices = document.getElementsByClassName("price");
 	if (orden === 0) { orden = -1; precio.innerHTML = "Precio" }
 	else
-		if (orden == 1) { ordenarAsc(productos, "price"); precio.innerHTML = "Precio A"; precio.style.color = "darkgreen" }
+		if (orden == 1) { ordenarAsc(productos, "price"); precio.innerHTML = "Precio A"; precio.style.color = "red" }
 		else
-			if (orden == -1) { ordenarDesc(productos, "price"); precio.innerHTML = "Precio D"; precio.style.color = "blue" }
+			if (orden == -1) { ordenarDesc(productos, "price"); precio.innerHTML = "Precio D"; precio.style.color = "yellow" }
 
 
 	listado.style.display = "block";
